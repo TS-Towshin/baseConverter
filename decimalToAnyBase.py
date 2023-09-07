@@ -14,3 +14,8 @@ def convert(N, b):
     for i in converted_arr[::-1]:
         converted_str = converted_str + str(i)
     print(converted_str)
+
+if __name__=='__main__':
+    N = int(input("Decimal number: "))
+    b = int(input("Enter the base: "))
+    convert(N, b)

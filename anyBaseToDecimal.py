@@ -13,3 +13,8 @@ def convert(N, b):
 
             dec_val = dec_val + code[N[indx]]*(b**i)
     print(dec_val)
+
+if __name__=='__main__':
+        N = input("Enter the value: ")
+        b = int(input("Enter the base: "))
+        convert(N, b)
