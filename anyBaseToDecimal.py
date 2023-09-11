@@ -1,4 +1,4 @@
-# This script can only convert from base up to 37
+# This script can only convert from base up to 36
 
 def convert(N, b):
     dec_val = 0
